@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer & Film</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Developer & Film</header>
+    <div class="nav">
+        <button id="filmTab" class="active" onclick="showTab('film')">🎞️ B&W Film</button>
+        <button id="developerTab" onclick="showTab('developer')">🧪 Developer</button>
+    </div>
+    <div class="container" id="filmPage"></div>
+    <div class="container" id="developerPage" style="display: none;"></div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
